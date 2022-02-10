@@ -3,7 +3,7 @@ interest = 0.05
 
 def calculate_savings(number_of_years):
     total = 0
-    history = []
+    history = [annual_savings]
     for year in range(number_of_years):
         print(year)
         total = total + annual_savings
